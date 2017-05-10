@@ -1,0 +1,127 @@
+1
+ 
+2 # Created by https://www.gitignore.io/api/java,maven,eclipse 
+3 
+ 
+4 ### Eclipse ### 
+5 
+ 
+6 .metadata 
+7 bin/ 
+8 tmp/ 
+9 *.tmp 
+10 *.bak 
+11 *.swp 
+12 *~.nib 
+13 local.properties 
+14 .settings/ 
+15 .loadpath 
+16 .recommenders 
+17 
+ 
+18 # External tool builders 
+19 .externalToolBuilders/ 
+20 
+ 
+21 # Locally stored "Eclipse launch configurations" 
+22 *.launch 
+23 
+ 
+24 # PyDev specific (Python IDE for Eclipse) 
+25 *.pydevproject 
+26 
+ 
+27 # CDT-specific (C/C++ Development Tooling) 
+28 .cproject 
+29 
+ 
+30 # Java annotation processor (APT) 
+31 .factorypath 
+32 
+ 
+33 # PDT-specific (PHP Development Tools) 
+34 .buildpath 
+35 
+ 
+36 # sbteclipse plugin 
+37 .target 
+38 
+ 
+39 # Tern plugin 
+40 .tern-project 
+41 
+ 
+42 # TeXlipse plugin 
+43 .texlipse 
+44 
+ 
+45 # STS (Spring Tool Suite) 
+46 .springBeans 
+47 
+ 
+48 # Code Recommenders 
+49 .recommenders/ 
+50 
+ 
+51 # Scala IDE specific (Scala & Java development for Eclipse) 
+52 .cache-main 
+53 .scala_dependencies 
+54 .worksheet 
+55 
+ 
+56 ### Eclipse Patch ### 
+57 # Eclipse Core		 
+58 .project 
+59 
+ 
+60 # JDT-specific (Eclipse Java Development Tools)		 
+61 .classpath 
+62 
+ 
+63 ### Java ### 
+64 # Compiled class file 
+65 *.class 
+66 
+ 
+67 # Log file 
+68 *.log 
+69 
+ 
+70 # BlueJ files 
+71 *.ctxt 
+72 
+ 
+73 # Mobile Tools for Java (J2ME) 
+74 .mtj.tmp/ 
+75 
+ 
+76 # Package Files # 
+77 *.jar 
+78 *.war 
+79 *.ear 
+80 *.zip 
+81 *.tar.gz 
+82 *.rar 
+83 
+ 
+84 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml 
+85 hs_err_pid* 
+86 
+ 
+87 ### Maven ### 
+88 target/ 
+89 pom.xml.tag 
+90 pom.xml.releaseBackup 
+91 pom.xml.versionsBackup 
+92 pom.xml.next 
+93 release.properties 
+94 dependency-reduced-pom.xml 
+95 buildNumber.properties 
+96 .mvn/timing.properties 
+97 
+ 
+98 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored) 
+99 !/.mvn/wrapper/maven-wrapper.jar 
+100 
+ 
+101 # End of https://www.gitignore.io/api/java,maven,eclipse 
